@@ -12,7 +12,7 @@
 
 //var dominio='http://avanildo.com.br/'; //url do site para as paginas internas 
 
-var dominio='https://host-avanildo.rhcloud.com/';
+var dominio='https://avanildosite.github.io/construcao/';
 var horizontal = new Array();// nova array de objeto
 var vertical = new Array();// nova array de objeto
 var _rodape = new Array();// nova array de objeto
