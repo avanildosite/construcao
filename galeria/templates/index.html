@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  
+<head>
+<!-- configurar pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/avanildo.css">
+    <link rel="stylesheet" href="<% gallery_root %>css/mediaboxWhite.css" type="text/css" media="screen" />    
+    <script src="../js/jquery.min.js"></script>
+    
+    
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/dados.js"></script>
+    <script src="bd/dados.js"></script>
+    <script src="../js/bootbox.min.js"></script>
+<!-- configurar metas tag pagina -->
+    <link rel="canonical" href="" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Galeria de fotos do site   </title>
+    <meta name="author" content="Avanildo" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="p:domain_verify" content="dd0d8a10871f92ef62114717a0208bb2"/>
+<!--configuraçao de og: -->
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content=" " />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Avanildo Construções" />
+    <meta property="article:publisher" content="https://www.facebook.com/Avanildo-Construções-740769606031967/" />
+
+
+<noscript>
+     alert('Voce esta sem suporte java script, ative-o para visualizar melhor este site');
+</noscript> 
+<style type="text/css">
+			
+			#container,
+			#innerheader,
+			.Message {
+				max-width: <% gallery_width %>;
+				margin: 0px auto;
+			}
+
+			.Message {
+				background-color: #2ecc71;
+				border-radius: 2px;
+			}
+			.Message > div {
+				padding: 1rem;
+			}
+			.closeMessage {
+				float: right;
+			}
+
+			.Comment {
+				padding: 2rem 0;
+			}
+			img {
+				border: none;
+			}
+			nav {
+				font-size: 1.3em;
+			}
+			.NavWrapper {
+				padding: 1rem 0;
+			}
+			body > nav {
+				text-align: center;
+			}
+
+			.Empty,
+			.EmptyAdvice {
+				text-align: center;
+				text-shadow:0 1px 0 #FFF
+			}
+			.Empty {
+				font-size: 10rem;
+			}
+			.EmptyAdvice {
+				font-size: 2rem;
+				font-style: italic;
+			}
+
+			#folder_comment
+			{
+				margin-bottom:10px;
+			}
+			#folder_comment a {
+				color: #FFCC11;
+				text-decoration: none;
+			}
+			#backtop,
+			#backtop:hover,
+			#backtop:active,
+			.b-lazy {
+				-webkit-transition:all .2s ease-in;
+				-o-transition:all .2s ease-in;
+				transition:all .2s ease-in;
+			}
+			#gallery {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			#gallery li, #gallery li img {
+				border-radius: 4px;
+			}
+			#gallery li {
+				float: left;
+				position: relative;
+				overflow:hidden;
+				margin: .5%;
+				-webkit-box-shadow:  0px 0px 2px -1px #000;
+				box-shadow:  0px 0px 2px -1px #000;
+			}
+			#gallery li img{
+				width: 100%;
+			}
+			#gallery em {
+				background: #FFF;
+				text-align: center;
+				font-style: normal;
+				padding: 8px 0px;
+				display: block;
+				position: absolute;
+				bottom:0px;
+				width: 100%;
+			}
+			.clear {
+				clear:both;
+			}
+			footer {
+				padding-top: 2rem;
+				margin-bottom: 25px;
+				text-align: center;
+			}
+			footer a {
+				text-decoration: none;
+				color: #666;
+			}
+			/*----Back to top button---*/
+			#backtop {
+				display: block;
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				padding: 1rem 4rem;
+				background-color: #CC2027;
+				color: #FFF;
+				margin: .5%;
+				border-radius: 4px;
+				-webkit-box-shadow:  0px 0px 2px -1px #000;
+				box-shadow:  0px 0px 2px -1px #000;
+			}
+			/*----lazyloading---*/
+			.loader{
+				background: url('images/loader.gif') center center no-repeat;
+			}
+			.b-lazy {
+				opacity: 0;
+			}
+			.b-lazy.b-loaded {
+				opacity: 1;
+			}
+			/*----responsive----*/
+			#gallery li {
+				width: 24%;
+				height: 0;
+				padding-bottom: 24%;
+			}
+			@media (max-width: 1000px) {
+				#gallery li {
+					width: 32%;
+					padding-bottom: 32%;
+				}
+			}
+			@media (max-width: 800px) {
+				#gallery li {
+					width: 48%;
+					padding-bottom: 48%;
+				}
+			}
+			@media (max-width: 450px) {
+				#gallery li {
+					width: 100%;
+					padding-bottom: 100%;
+				}
+			}
+		.button {
+		    background-color: #4CAF50; /* Green */
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		}
+		</style> 
+ 
+</head>
+<body>
+
+<div class="container infeite" > 
+
+<header class="container-fluid">
+   
+    <div class="row azul"> 
+     <div class="col-md-4 logo ">
+                
+          <script>document.write(logo)</script>  
+        
+    </div>
+    <div class="col-md-4 centro">
+        <script>document.write(telefone)</script> 
+    </div>
+  
+    <div class="col-md-4  centro">
+                
+           <script>document.write(watsapp)</script>    
+ <!--
+     <img  src="http://avanildo.com.br/theme/avanildo-flui/images/watsap.png" align="middle"  height="100" alt="Watssap" onclick="wats()"> (19)9-8219-3013
+  -->
+    </div>
+  </div>   
+</header>
+ 
+<nav class="navbar navbar-inverse" >
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     </div>
+    
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+              <script> montarmenu(horizontal) </script>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+   <!-- Pagina principal -->
+<div class="container-fluid text-center">    
+  
+ 
+  <div class="row content">
+         
+   
+    
+         
+<!--menssagem do site fim de ano  feita por avanildo macedo-->
+
+<script> //document.write(aviso)</script>
+     
+     <h1 class="well">  <% title %>    </h1>   <!-- titolo da pagina   -->
+    
+     <nav role="navigation"><% breadcrumb_navigation %></nav>
+	  <aside><% folder_comment %></aside>
+     
+    <div class="col-sm-12 text-left">  
+       <!--imagem  aqui -->    
+       <main id="container">
+			<ul id="gallery">
+				<% thumbnails %>
+			</ul>
+		</main>
+		<nav class="clear" role="navigation"><% page_navigation %></nav>
+		<a href="#top" id="backtop">Topo</a>
+    
+    </div>  
+  
+    
+
+    </div>
+ 
+ 
+  </div>
+
+ <!-- Roda pe -->
+  <footer class="azul"> 
+   <div class="row">
+       <div class="col-sm-4">
+        <script> document.write(t1_rodape)</script>           
+           <ul style="list-style: none; text-align:left" class="l1">           
+               <script> montarmenu(_rodape)  //document.write(rodape);</script>
+           </ul>
+       </div>
+       <div class="col-sm-4">
+   
+        <script> document.write(t2_rodape)</script>           
+           <ul style="list-style: none; text-align:left" class="l1">           
+               <script> montarmenu(rodape1)  //document.write(rodape);</script>
+           </ul>
+       </div>   
+   
+       
+       <div class="col-sm-4">
+             
+            <script> document.write(t3_rodape)</script>           
+           <ul style="list-style: none; text-align:left" class="l1">           
+               <script> montarlista(rodape2)  //document.write(rodape);</script>
+           </ul>
+   
+       </div>
+   
+      
+   
+   </div>   
+     
+   
+  </footer>
+</div>
+
+ 
+
+</body>
+</html>
+

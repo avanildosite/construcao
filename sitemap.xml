@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <url>
+    <loc> http://avanildo.com.br/galeria/index.html</loc>
+    <lastmod>2016-02-03T11:48:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/contato.html</loc>
+    <lastmod>2016-02-03T13:23:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/sobre.html</loc>
+    <lastmod>2016-02-03T14:15:58+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/blog/index.html</loc>
+    <lastmod>2016-02-03T11:49:32+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+   <url>
+    <loc> http://avanildo.com.br/index.html</loc>
+    <lastmod>2016-02-03T14:11:43+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/</loc>
+    <lastmod>2016-02-03T13:05:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/curriculum.html</loc>
+    <lastmod>2016-02-03T13:51:54+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/azulejista.html</loc>
+    <lastmod>2016-02-03T13:14:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/calculo.html</loc>
+    <lastmod>2016-02-03T13:29:44+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/forma-pagamento.html</loc>
+    <lastmod>2016-02-03T13:29:44+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc> http://avanildo.com.br/paginas/proteja-revestimento.html</loc>
+    <lastmod>2016-02-03T14:14:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/como-construir.html</loc>
+    <lastmod>2016-02-03T13:17:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/cursos.html</loc>
+    <lastmod>2016-02-03T13:17:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/termo.html</loc>
+    <lastmod>2016-02-03T13:17:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc> http://avanildo.com.br/paginas/privacidade.html</loc>
+    <lastmod>2016-02-03T13:17:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>
