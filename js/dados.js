@@ -12,7 +12,7 @@
 
 //var dominio='http://avanildo.com.br/'; //url do site para as paginas internas 
 
-var dominio='https://avanildosite.github.io/construcao/';
+var dominio='http://avanildo.igg.biz/';
 var horizontal = new Array();// nova array de objeto
 var vertical = new Array();// nova array de objeto
 var _rodape = new Array();// nova array de objeto
@@ -27,16 +27,16 @@ _rodape[2]=new montamenu(dominio+"galeria/","Galeria de fotos",0);
 _rodape[3]=new montamenu(dominio+"paginas/nosso-clientes.html","Clientes Corporativos",0);
 // Ideias
 var t2_rodape="<h2>Ideias para construir </h2>";
-rodape1[0]=new montamenu("https://br.pinterest.com/avanildoconstru/cosinha/","Cozinha",1);
-rodape1[1]=new montamenu("https://br.pinterest.com/avanildoconstru/fachada-constru%C3%A7%C3%A3o-sobrado/","Fachadas",1);
-rodape1[2]=new montamenu("https://br.pinterest.com/avanildoconstru/abanheiro/","Banheiros",1);
-rodape1[3]=new montamenu("https://br.pinterest.com/avanildoconstru/salas-pequenas/","Salas"),1;
+rodape1[0]=new montamenu("https://br.pinterest.com/avanildoconstru/cosinha/","Cozinha",0);
+rodape1[1]=new montamenu("https://br.pinterest.com/avanildoconstru/fachada-constru%C3%A7%C3%A3o-sobrado/","Fachadas",0);
+rodape1[2]=new montamenu("https://br.pinterest.com/avanildoconstru/abanheiro/","Banheiros",0);
+rodape1[3]=new montamenu("https://br.pinterest.com/avanildoconstru/salas-pequenas/","Salas"),0;
 // Endereço
 var t3_rodape="<h2>Contato </h2>";
     
 rodape2[0]=new montamenu("#","Avanildo Construções",0);
 rodape2[1]=new montamenu("#","Rua:Antonio koch Leme Filho N60 ",0);    
-rodape2[2]=new montamenu("#","Fone: (19)41-02-4267)",0);
+rodape2[2]=new montamenu("#","Fone: (19)3035-5755)",0);
 rodape2[3]=new montamenu("#","Email: Avanildocontrucoes@gmail.com",0); 
 
 // variavel do blog
@@ -54,18 +54,16 @@ horizontal[4] = new montamenu(dominio+"paginas/contato.html","Contato",0);
 horizontal[5] = new montamenu(dominio+"paginas/sobre.html","Sobre Nos",0);     
 
 // Menu vertical
-vertical[0] = new montamenu(dominio+"paginas/lista-servico.html","Especialidades",0);     
+vertical[0] = new montamenu(dominio+"paginas/azulejista.html","Azulejista",0);     
 vertical[1] = new montamenu(dominio+"paginas/como-construir.html","Como Construir",0);     
 vertical[2] = new montamenu(dominio+"paginas/curriculum.html","Meu Curriculum",0);     
 vertical[3] = new montamenu(dominio+"paginas/proteja-revestimento.html","Proteja Seu Revestimento ",0);
 vertical[4] = new montamenu(dominio+"paginas/forma-pagamento.html","Formas De Pagamento",0);
 vertical[5] = new montamenu("https://br.pinterest.com/avanildoconstru/","Projeto Para Inspiração",1);               
 vertical[6] = new montamenu("https://br.pinterest.com/avanildoconstru/medidas/","Medidas Para Acabamento",1);
-vertical[7] = new montamenu("#","Manuntenção industrial",1);
-vertical[8] = new montamenu("#","Veja nosssa promoções",2);
-vertical[9] = new montamenu(dominio+"paginas/cursos.html","Cursos Gratuito Online",0);
+vertical[7] = new montamenu(dominio+"paginas/cursos.html","Cursos Gratuito Online",0);
 
-vertical[10] = new montamenu("javascript:void(0)","<h3> Aceitamos Cartões </h3> <img src='"+dominio+"img/pagamento.jpeg' width='100%' alt='Pague com Visa ou Master'> <hr><b> Em 2 X sem juros ou <br>até 12X com acrecimo <br /> Somente cartões com ship</b><hr>",2);
+vertical[8] = new montamenu("javascript:void(0)","<h2> Use seu Cartão </h2> <img src='"+dominio+"img/pagamento.jpeg' width='100%' alt='Page com Visa ou Master'> <hr> Em até 12X com acrecimo <br /> Somente cartão com ship<hr>",2);
 
 
      
@@ -100,6 +98,7 @@ function montarlista(m) {
             document.write('<li>'+m[j].titolo+'</li>'); }; 
 };
 
+
 // inicio, funcao completa para controle de formulario ajax 
 // sem refleche
  $(function(){ // funcao ajax para carregamento sem reflex php em jquerey 
@@ -130,7 +129,7 @@ function montarlista(m) {
 
 // variaves de apoio 
 
-telefone='(19)9-8219-3013 <br /> (19)9-9556-0691 <br /> (19)4102-4267 ';
+telefone='(19)9-8219-3013 <br /> (19)9-9556-0691 <br /> (19)3035-5755 ';
 watsapp='<img  src="'+dominio+'img/watsap.png" align="middle"  height="100" alt="Watssap" title="WatsApp"> <br /> (19)9-8219-3013';
 
 aviso='<div style="color:#1f7a1f; text-align:center"> <font size="5"> <strong><p> Obrigado aos nossos clientes e amigo.'; 
