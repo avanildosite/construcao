@@ -23,7 +23,7 @@ var blog = new Array();// nova array blog
 var t1_rodape="<h2>Informações  </h2>"; // titolo do rodape
 _rodape[0]=new montamenu(dominio+"paginas/termo.html","Termo de prestação de serviço",0);
 _rodape[1]=new montamenu(dominio+"paginas/privacidade.html","Politica e Privacidade"),0; 
-_rodape[2]=new montamenu(dominio+"galeria/","Galeria de fotos",0);
+_rodape[2]=new montamenu("http://avanildo.com/galeria/","Galeria de fotos",0);
 _rodape[3]=new montamenu(dominio+"paginas/nosso-clientes.html","Clientes Corporativos",0);
 // Ideias
 var t2_rodape="<h2>Ideias para construir </h2>";
